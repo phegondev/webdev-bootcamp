@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Media Qwery</title>
+
+
+    <style>
+        .box{
+            background-color: #3498db;
+            color: #fff;
+            padding: 50px;
+            margin: 20px auto;
+            width: 70%;
+            transition: all 0.3s ease;
+        }
+
+        body{
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+
+        /* Mobile device */
+        @media screen and (max-width: 600px) {
+            .box{
+                background-color: #e74c3c;
+            }
+            h1{
+                color: #e74c3c;
+            }
+        }
+
+        /* Tables phones */
+        @media screen and (min-width: 601px) and (max-width: 1024px) {
+            .box{
+                background-color: #27ae60;
+            }
+            h1{
+                color: #27ae60;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Responsive Media Qwery Example</h1>
+    <p>Resize the browser window to view on different devuces to see the box change color</p>
+
+
+    <div class="box">
+        I Change color and size depending on the screen size
+    </div>
+    
+</body>
+</html>

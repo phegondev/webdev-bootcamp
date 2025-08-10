@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+</head>
+
+
+<style>
+    li{
+        list-style: none;
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .completed{
+        text-decoration: line-through;
+        color: #ddd;
+    }
+
+    #title{
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    li span{
+        font-weight: bold;
+        color: aqua;
+    }
+</style>
+
+<body>
+
+    <h1 id="title">My todo list</h1>
+
+    <ul>
+        <li><span>Task 1: </span> Learn HTML & CSS</li>
+        <li class="completed"><span>Task 2: </span> Finish Homework</li>
+        <li><span>Task 3: </span> Call a friend</li>
+        <li class="completed"><span>Task 4: </span> Eat dinner</li>
+
+    </ul>
+
+    <span>Task 5</span>
+
+    <p>This is my first note </p>
+    <p>This is my 2nd note </p>
+    <p>This is my 3rd note </p>
+
+</body>
+
+</html>
