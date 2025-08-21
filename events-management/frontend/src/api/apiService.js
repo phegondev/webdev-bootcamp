@@ -1,6 +1,7 @@
 import axios from 'axios';
 
 
+//const API_URL = 'http://3.22.223.172:8090/api'; // production url
 const API_URL = 'http://localhost:8090/api';
 
 
